@@ -1,0 +1,54 @@
+﻿* {
+  box-sizing: border-box ;
+  margin:0px;
+  padding:0px;
+}
+
+body{
+ background:#0099ff; 
+}
+#title-namepage-wrapped{
+  margin:20px 0px;
+}
+#title-namepage-wrapped p{
+  text-align:center;
+  color:white;
+  font-size:36px;
+  font-family: 'Times New Roman', Times, serif;
+  display:block;
+}
+#header-wrapped {
+  margin:30px 0px;
+}
+#header-wrapped input{
+  width:75%;
+  height:50px;
+  text-align: center;
+}
+#header-wrapped button{
+  height:50px;
+  width:24%;
+  border:none;
+  color:black;
+  background: white;
+}
+ span,p {
+  display:inline-block;
+  color:black;
+  
+}
+img{
+  display:block;
+  width:125px;
+  height:150px;
+}
+#present-weather, #present-forecast , #present-forecast1,#present-forecast2, #nextday-weather1,#nextday-weather2,#nextday-weather3{
+  display:none;
+}
+#display-wrapped #present-weather , #present-forecast ,#present-forecast1,#present-forecast2, #nextday-weather1 , #nextday-weather2 ,#nextday-weather3{
+  border:1px solid white;
+  margin:20px 0px;
+  padding:10px;
+  background:white;
+  
+}
