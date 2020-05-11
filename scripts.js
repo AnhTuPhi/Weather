@@ -37,7 +37,7 @@ request.send();*/
 function search() {
   var city = document.querySelector("#input").value;
   alert(city);
-  var url = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=9f20eb77f72ea91f670b63837d46bb2e&units=metric&cnt=32";
+  var url = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=9f20eb77f72ea91f670b63837d46bb2e&units=metric&cnt=32";
   console.log(url);
   //var urlIcon = "http://openweathermap.org/img/wn/" + icon+"@2x.png";
   function loadData() {
